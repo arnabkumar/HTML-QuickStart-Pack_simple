@@ -1,0 +1,36 @@
+/*	Less Framework 4 with 18/24 type presets
+	http://lessframework.com
+	by Joni Korpi
+	License: http://opensource.org/licenses/mit-license.php	*/
+
+/* default layout from main stylesheet */
+/* This layout for when less framework */
+
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.column {width:750px}
+body{background:#008C46;}
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+ body{background:#A64CFF;}
+
+.column {width:auto}
+}
+
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+ body{background:#4CFF4C;}
+.column {width:450px}
+
+}
